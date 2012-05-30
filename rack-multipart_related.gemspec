@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
   
   s.add_development_dependency "step-up"
   s.add_development_dependency "mocha" 
+  s.add_development_dependency "rack-test"
 
   excepts = %w[
     .gitignore
